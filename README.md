@@ -1,4 +1,4 @@
-[![Coverage Status](https://coveralls.io/repos/github/frdwrd/storj-analytics/badge.svg?branch=master)](https://coveralls.io/github/frdwrd/storj-analytics?branch=master)
+[![Coverage Status](https://coveralls.io/repos/github/storj/storj-analytics/badge.svg?branch=master)](https://coveralls.io/github/storj/storj-analytics?branch=master)
 
 Wraps the `analytics-node` package to respect do not track headers. Provides a
 simple configuration file.
