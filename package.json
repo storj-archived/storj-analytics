@@ -1,6 +1,6 @@
 {
   "name": "storj-analytics",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Wrapper around external analytics tools for Storj",
   "main": "index.js",
   "directories": {
