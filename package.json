@@ -1,0 +1,41 @@
+{
+  "name": "storj-analytics",
+  "version": "0.0.1",
+  "description": "Wrapper around external analytics tools for Storj",
+  "main": "index.js",
+  "directories": {
+    "test": "test",
+    "lib": "lib"
+  },
+  "scripts": {
+    "testsuite": "STORJ_ALLOW_LOOPBACK=1 NODE_ENV=test _mocha --recursive test/**",
+    "coverage": "STORJ_ALLOW_LOOPBACK=1 NODE_ENV=test ./node_modules/.bin/istanbul cover ./node_modules/.bin/_mocha -- --recursive",
+    "linter": "./node_modules/.bin/jshint --config .jshintrc ./index.js ./lib ./test",
+    "test": "npm run testsuite && npm run linter"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Storj/storj-analytics.git"
+  },
+  "keywords": [
+    "storj",
+    "analytics"
+  ],
+  "license": "AGPL-3.0",
+  "bugs": {
+    "url": "https://github.com/Storj/storj-analytics/issues"
+  },
+  "homepage": "https://github.com/Storj/storj-analytics#readme",
+  "devDependencies": {
+    "chai": "^3.4.1",
+    "coveralls": "^2.11.6",
+    "istanbul": "^0.4.1",
+    "jsdoc": "^3.4.0",
+    "jshint": "2.8.0",
+    "mocha": "^2.3.4",
+    "sinon": "^1.17.2"
+  },
+  "dependencies": {
+    "analytics-node": "^2.4.0"
+  }
+}
