@@ -3,6 +3,12 @@
 Wraps the `analytics-node` package to respect do not track headers. Provides a
 simple configuration file.
 
+Installation
+-----
+```sh
+npm install storj-analytics
+```
+
 Usage
 -----
 
