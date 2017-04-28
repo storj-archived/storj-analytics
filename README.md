@@ -6,7 +6,7 @@ simple configuration file.
 Installation
 -----
 ```sh
-npm install storj-analytics
+npm install storj-analytics --save
 ```
 
 Usage
