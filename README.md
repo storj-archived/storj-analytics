@@ -10,7 +10,7 @@ Usage
 const analytics = require('storj-analytics');
 
 analytics.identify(req.headers.dnt, {
-  user: user.uuid,
+  userId: user.uuid,
   traits: {
     email: user.uuid + '@email.suffix'
     key: value
@@ -18,7 +18,7 @@ analytics.identify(req.headers.dnt, {
 });
 
 analytics.track(req.headers.dnt, {
-  user: user.uuid,
+  userId: user.uuid,
   event: 'This is an event name',
   properties: {
     key: value,
