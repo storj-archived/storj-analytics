@@ -1,3 +1,5 @@
+**Notice: Development on this repository is currently on pause during our v3 rearchitecture. Please see [storj/storj](https://github.com/storj/storj) for ongoing v3 development.**
+
 [![Coverage Status](https://coveralls.io/repos/github/Storj/storj-analytics/badge.svg?branch=master)](https://coveralls.io/github/Storj/storj-analytics?branch=master)
 
 Wraps the `analytics-node` package to respect do not track headers. Provides a
